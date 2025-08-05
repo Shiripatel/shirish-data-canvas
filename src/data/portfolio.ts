@@ -1,10 +1,8 @@
 // Portfolio data for easy editing
-import profilePlaceholder from "@/assets/profile-placeholder.jpg";
-import oracleErpProject from "@/assets/oracle-erp-project.jpg";
-import cleanEnergyAutomation from "@/assets/clean-energy-automation.jpg";
-import tableauDashboard from "@/assets/tableau-dashboard.jpg";
-import safetyAiApp from "@/assets/safety-ai-app.jpg";
-import financialModel from "@/assets/financial-model.jpg";
+import shirishProfile from "@/assets/shirish-profile.jpg";
+import deloitteLogo from "@/assets/logos/deloitte-logo.png";
+import protivitiLogo from "@/assets/logos/protiviti-logo.png";
+import grantThorntonLogo from "@/assets/logos/grant-thornton-logo.png";
 
 export const personalInfo = {
   name: "Shirish Patel",
@@ -12,8 +10,8 @@ export const personalInfo = {
   location: "Chicago, IL, USA",
   email: "shirishpatel1611@gmail.com",
   phone: "(872) 288 4166",
-  photo: profilePlaceholder,
-  linkedin: "https://linkedin.com/in/shirishpatel",
+  photo: shirishProfile,
+  linkedin: "https://www.linkedin.com/in/shirish1611/",
   github: "https://github.com/shirishpatel",
   kaggle: "https://kaggle.com/shirishpatel"
 };
@@ -33,7 +31,6 @@ export const projects = [
     id: 1,
     title: "Oracle ERP Digital Transformation",
     description: "Led ERP rollout for a $1B UAE conglomerate across 4 sectors. Analyzed 650+ requirements, improved finance and SCM functions.",
-    image: oracleErpProject,
     technologies: ["Oracle Cloud", "Jira", "Jenkins"],
     link: "#"
   },
@@ -41,7 +38,6 @@ export const projects = [
     id: 2,
     title: "Clean Energy Billing Automation",
     description: "Built a no-code/low-code automation framework to reduce billing inaccuracies, raising automation coverage from 76% to 85%.",
-    image: cleanEnergyAutomation,
     technologies: ["Python", "OCR", "Jenkins", "Jira"],
     link: "#"
   },
@@ -49,7 +45,6 @@ export const projects = [
     id: 3,
     title: "Tableau Student Dashboard",
     description: "Designed interactive dashboards used by 8+ teams to analyze student data, cutting manual reporting time significantly.",
-    image: tableauDashboard,
     technologies: ["Tableau", "SQL", "Excel"],
     link: "#"
   },
@@ -57,7 +52,6 @@ export const projects = [
     id: 4,
     title: "HackWithChicago 2025 – Safety AI App (Winner)",
     description: "Built a real-time AI-powered driver safety platform that won first place at Microsoft's HackWithChicago.",
-    image: safetyAiApp,
     technologies: ["Python", "RAG", "Streamlit", "OpenAI"],
     link: "#"
   },
@@ -65,7 +59,6 @@ export const projects = [
     id: 5,
     title: "Financial Model for Digital Infra Project",
     description: "Created a 7-year IRR/payback model for a state government, complete with sensitivity analysis and dashboards.",
-    image: financialModel,
     technologies: ["Excel", "Power BI"],
     link: "#"
   }
@@ -78,7 +71,8 @@ export const experience = [
     position: "Data Analyst (Part Time)",
     location: "Chicago, IL",
     period: "Oct 2024 – Present",
-    description: "Built Tableau dashboards for student data warehouse, helping 8+ departments and reducing reporting time."
+    description: "Developing data solutions and analytics dashboards for university operations, supporting multiple departments with data-driven insights.",
+    logo: null
   },
   {
     id: 2,
@@ -86,7 +80,8 @@ export const experience = [
     position: "Consultant, Strategy & Operations",
     location: "Bangalore, India",
     period: "Aug 2021 – Dec 2024",
-    description: "Led ERP rollouts, system gap assessments, and process reengineering across supply chain, utilities, and telecom sectors."
+    description: "Led digital transformation initiatives and business process optimization across supply chain, utilities, and telecom sectors.",
+    logo: deloitteLogo
   },
   {
     id: 3,
@@ -94,7 +89,8 @@ export const experience = [
     position: "Consultant, Financial Advisory",
     location: "Riyadh, Saudi Arabia",
     period: "Feb 2019 – Jul 2021",
-    description: "Audited finance, HR, and sales processes, uncovering SAR 100M+ in revenue risks. Led IFRS 16 reconciliation of 11,587 leases."
+    description: "Conducted comprehensive audits of business processes and financial operations, identifying significant risk exposures and compliance gaps.",
+    logo: protivitiLogo
   },
   {
     id: 4,
@@ -102,7 +98,8 @@ export const experience = [
     position: "Consultant, Business Advisory",
     location: "Delhi, India",
     period: "Apr 2016 – Jan 2019",
-    description: "Supported investment decisions with financial due diligence and revenue/risk modeling for greenfield projects."
+    description: "Provided strategic business advisory services including financial due diligence and investment decision support.",
+    logo: grantThorntonLogo
   }
 ];
 

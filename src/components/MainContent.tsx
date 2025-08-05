@@ -37,7 +37,6 @@ const MainContent = () => {
               key={project.id}
               title={project.title}
               description={project.description}
-              image={project.image}
               technologies={project.technologies}
               link={project.link}
             />
@@ -62,6 +61,7 @@ const MainContent = () => {
               location={exp.location}
               period={exp.period}
               description={exp.description}
+              logo={exp.logo}
             />
           ))}
         </div>
